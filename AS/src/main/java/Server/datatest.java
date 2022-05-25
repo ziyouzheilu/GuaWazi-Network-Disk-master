@@ -6,6 +6,7 @@ import java.sql.SQLException;
 
 
 import java.sql.*;
+import java.util.logging.Logger;
 
 public class datatest {
     // MySQL 8.0 以上版本 - JDBC 驱动名及数据库 URL
@@ -18,6 +19,7 @@ public class datatest {
     public static void main(String[] args) {
         Connection conn = null;
         Statement stmt = null;
+        System.out.println("修改");
         try{
             // 注册 JDBC 驱动
             Class.forName(JDBC_DRIVER);
