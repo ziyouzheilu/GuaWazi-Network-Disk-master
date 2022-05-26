@@ -19,7 +19,7 @@ public class datatest {
     public static void main(String[] args) {
         Connection conn = null;
         Statement stmt = null;
-        System.out.println("第二次修改");
+        System.out.println("hahh");
         try{
             // 注册 JDBC 驱动
             Class.forName(JDBC_DRIVER);
